@@ -1,0 +1,4 @@
+ifconfig eth0 192.168.1.1 netmask 255.255.255.224 broadcast 192.168.1.31 up
+ifconfig eth1 192.168.1.97 netmask 255.255.255.224 broadcast 192.168.1.127 up
+ifconfig eth2 192.168.1.161 netmask 255.255.255.224 broadcast 192.168.1.191 up
+dhcpd3 start eth0
